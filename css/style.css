@@ -24,4 +24,63 @@
 
 body{
     font-family: 'Work Sans', sans-serif;
+    background-color: var(--black);
+    color: var(--white);
+    height: 100vh;
+}
+
+/* Header */
+header{
+    width: 100%;
+    padding: 10px 3px 0px 0px;
+    height: 40px;
+    justify-content: flex-end;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--grey);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+/*Main*/
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container{
+    width: 100%;
+    margin: 20px auto;
+    background-color: var(--black);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.screen-user{
+    position: relative;
+    margin-top: 5px;
+}
+
+
+.name{
+    position: absolute;
+    background-color: var(--grey);
+    font-size: 10px;
+    color: var(--white);
+    bottom: 0px;
+}
+
+
+/* Footer */
+footer{
+    width: 100%;
+    padding: 40px 0px;
+    background-color: var(--greyfooter);
 }
