@@ -29,6 +29,13 @@ body{
     height: 100vh;
 }
 
+h2{
+    color: var(--red);
+    background-color: var(--greybutton);
+    padding: 10px;
+    font-size: 15px;
+}
+
 /* Header */
 header{
     width: 100%;
@@ -54,7 +61,6 @@ main{
 }
 
 .container{
-    width: 100%;
     margin: 20px auto;
     background-color: var(--black);
     display: flex;
@@ -74,13 +80,32 @@ main{
     background-color: var(--grey);
     font-size: 10px;
     color: var(--white);
-    bottom: 0px;
+    bottom: 3px;
 }
 
 
 /* Footer */
 footer{
     width: 100%;
-    padding: 40px 0px;
+    padding: 40px 20px;
     background-color: var(--greyfooter);
+}
+
+.icon-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+li{
+    text-align: center;
+    list-style: none;
+    padding: 0 10px;
+    font-size: 12px;
 }
