@@ -1,0 +1,27 @@
+/* Utility */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* General */
+:root{
+    --black: #000000;
+    --grey: #4A4A4A;
+    --greyfooter: #222222;
+    --greybutton: #4A4A4A;
+    --white: #FFFFFF;
+    --green: #4BC800;
+    --red: #F50820;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
